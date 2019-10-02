@@ -1,0 +1,24 @@
+{
+  "name": "dotsung.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Dotsung/dotsung.dev.git",
+  "author": "Dotsung <dotsung22@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_PATH=src next ./src",
+    "build": "NODE_PATH=src next build ./src",
+    "export": "NODE_PATH=src next export ./src",
+    "start": "NODE_PATH=src next start ./src"
+  },
+  "dependencies": {
+    "next": "^9.0.5",
+    "open-color": "^1.7.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6"
+  }
+}
