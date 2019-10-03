@@ -1,6 +1,8 @@
 import Link from "next/link";
+import PageTemplate from "containers/PageTemplate";
+
 const Index = () => {
-  return <>home</>;
+  return <PageTemplate>Home</PageTemplate>;
 };
 
 export default Index;
