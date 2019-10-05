@@ -25,7 +25,11 @@ export default class MyDocument extends Document {
         <Head>
           <title>HyeongTak</title>
           <link
-            href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Sans|Roboto+Condensed&display=swap"
             rel="stylesheet"
           />
           {this.props.styleTags}

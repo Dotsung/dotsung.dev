@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
   }
   *{
     box-sizing: border-box;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Noto Sans KR", "Roboto Condensed", sans-serif;
   }
 `;
 

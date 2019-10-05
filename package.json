@@ -9,9 +9,15 @@
     "dev": "NODE_PATH=src next ./src",
     "build": "NODE_PATH=src next build ./src",
     "export": "NODE_PATH=src next export ./src",
-    "start": "NODE_PATH=src next start ./src"
+    "start": "NODE_PATH=src next start ./src",
+    "deploy": "aws s3 sync src/out s3://dotsung.dev"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "next": "^9.0.5",
     "open-color": "^1.7.0",
     "react": "^16.9.0",
