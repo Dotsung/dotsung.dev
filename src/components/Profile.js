@@ -4,11 +4,10 @@ import oc from "open-color";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {} from "@fortawesome/free-regular-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
+import { faGithubAlt, faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 const Wrapper = styled.div`
-  height: 100vh;
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 100px;
   display: flex;
@@ -57,7 +56,7 @@ const DescriptSection = styled.div`
 
 const IconDiv = styled.div`
   display: flex;
-  margin-top: 5px;
+  margin-top: 7px;
   align-items: center;
 `;
 
@@ -70,6 +69,7 @@ const IconWrapper = styled.div`
 
 const Icon = styled(FontAwesomeIcon)`
   font-size: 1.5rem;
+  color: ${oc.gray[8]};
 `;
 
 const Profile = () => {
@@ -92,13 +92,19 @@ const Profile = () => {
           <IconWrapper>
             <Icon icon={faPhone} />
           </IconWrapper>
-          <span>010-4376-7028</span>
+          <a>010-4376-7028</a>
         </IconDiv>
         <IconDiv>
           <IconWrapper>
             <Icon icon={faGithubAlt} />
           </IconWrapper>
           <a>github.com/Dotsung</a>
+        </IconDiv>
+        <IconDiv>
+          <IconWrapper>
+            <Icon icon={faDiscord} />
+          </IconWrapper>
+          <a>형탁#5136</a>
         </IconDiv>
       </DescriptSection>
     </Wrapper>

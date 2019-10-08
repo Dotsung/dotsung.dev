@@ -4,10 +4,10 @@ import oc from "open-color";
 import PageTemplate from "containers/PageTemplate";
 import Intro from "components/Intro";
 import Profile from "components/Profile";
+import Skills from "components/Skills";
 
-const Contents = styled.div`
+const ContentsPositioner = styled.div`
   display: flex;
-  flex-direction: column;
   margin-top: 97vh;
   background-color: white;
   position: relative;
@@ -32,13 +32,23 @@ const Contents = styled.div`
   }
 `;
 
+const Contents = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: auto;
+`;
+
 const HomeContainer = () => {
   return (
     <PageTemplate>
       <Intro />
-      <Contents>
-        <Profile />
-      </Contents>
+      <ContentsPositioner>
+        <Contents>
+          <Profile />
+          <Skills />
+        </Contents>
+      </ContentsPositioner>
     </PageTemplate>
   );
 };
