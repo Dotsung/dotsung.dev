@@ -15,10 +15,11 @@ const ListWrapper = styled.div`
   h3 {
     margin: 0;
     font-weight: 100;
+    font-size: 1.5rem;
   }
 
   div {
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
   }
@@ -29,8 +30,8 @@ const ListWrapper = styled.div`
   }
 
   img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
   }
@@ -40,6 +41,11 @@ const FamiliarList = [
   {
     img: "https://cdn.auth0.com/blog/react-js/react.png",
     name: "React.js"
+  },
+  {
+    img:
+      "https://alduncanson.gallerycdn.vsassets.io/extensions/alduncanson/react-hooks-snippets/1.1.6/1564630918767/Microsoft.VisualStudio.Services.Icons.Default",
+    name: "React Hooks"
   },
   {
     img: "https://miro.medium.com/max/400/1*nvHO6KuxX5B6FVXZ_hqTZw.png",
@@ -60,11 +66,6 @@ const FamiliarList = [
     name: "MongoDB"
   },
   {
-    img:
-      "https://alduncanson.gallerycdn.vsassets.io/extensions/alduncanson/react-hooks-snippets/1.1.6/1564630918767/Microsoft.VisualStudio.Services.Icons.Default",
-    name: "React Hooks"
-  },
-  {
     img: " https://t1.daumcdn.net/cfile/tistory/215E7444573996F735",
     name: "Aws S3"
   },
@@ -82,6 +83,11 @@ const TriedList = [
     name: "Vue.js"
   },
   {
+    img:
+      "https://dotsungfiles.s3.ap-northeast-2.amazonaws.com/react_native.png",
+    name: "React Native"
+  },
+  {
     img: "https://miro.medium.com/max/1400/0*U2DmhXYumRyXH6X1.png",
     name: "Redux"
   },
@@ -96,19 +102,23 @@ const TriedList = [
   },
   {
     img:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/250px-GraphQL_Logo.svg.png",
+    name: "GraphQL"
+  },
+  {
+    img:
       "https://images.velog.io/post-images/dongwon2/95f04080-3845-11e9-acb0-ebd80ec9a711/10ei2MOQxAzF7krm-v60wnQ.jpeg",
     name: "Typescript"
   },
-
+  {
+    img:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--sItCGY2B--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn.auth0.com/blog/next.jslogo.png",
+    name: "Next.js"
+  },
   {
     img:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1200px-Electron_Software_Framework_Logo.svg.png",
     name: "Electron"
-  },
-  {
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6XginJ7FYpkZJYF6XfoM5Vvaie7YfBWVubCpQQiy5GmwhGla3",
-    name: "GraphQL"
   }
 ];
 

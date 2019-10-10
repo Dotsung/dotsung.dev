@@ -38,20 +38,22 @@ const Contents = styled.div`
   flex-direction: column;
   width: 1000px;
   margin: auto;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 
 const Title = styled.h2`
   margin: 0;
-  margin-top: 50px;
-  font-weight: 100;
+  margin-top: 80px;
   font-size: 2rem;
 `;
 
 const Slicer = styled.div`
-  height: 2px;
+  height: 1px;
   width: 200px;
   background-color: ${oc.gray[8]};
-  margin-top: px;
   margin-bottom: 20px;
 `;
 
