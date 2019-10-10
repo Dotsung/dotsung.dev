@@ -4,29 +4,11 @@ import oc from "open-color";
 const Wrapper = styled.div`
   width: 100%;
   display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-`;
-
-const RowDiv = styled.div`
-  width: 100%;
-  display: flex;
-`;
-
-const TitleWrapper = styled.div`
-  width: 200px;
-  display: flex;
-  justify-content: flex-end;
-
-  h2 {
-    margin: 0;
-  }
 `;
 
 const ListWrapper = styled.div`
-  margin-left: 20px;
   margin-top: 5px;
-  width: 250px;
+  width: 350px;
   display: flex;
   flex-direction: column;
 
@@ -149,11 +131,8 @@ const LanguageList = [
 
 const Skills = () => {
   return (
-    <Wrapper>
-      <RowDiv>
-        <TitleWrapper>
-          <h2>Skills</h2>
-        </TitleWrapper>
+    <>
+      <Wrapper>
         <ListWrapper>
           <h3>Familiar</h3>
           {FamiliarList.map((item, idx) => (
@@ -181,8 +160,8 @@ const Skills = () => {
             </div>
           ))}
         </ListWrapper>
-      </RowDiv>
-    </Wrapper>
+      </Wrapper>
+    </>
   );
 };
 
