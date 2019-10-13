@@ -6,9 +6,11 @@ import Intro from "components/Intro";
 import Profile from "components/Profile";
 import Skills from "components/Skills";
 import Projects from "components/Projects";
+import Footer from "components/Footer";
 
 const ContentsPositioner = styled.div`
   display: flex;
+  flex-direction: column;
   margin-top: 100vh;
   background-color: white;
   position: relative;
@@ -73,6 +75,7 @@ const HomeContainer = () => {
           <Slicer />
           <Projects />
         </Contents>
+        <Footer />
       </ContentsPositioner>
     </PageTemplate>
   );
