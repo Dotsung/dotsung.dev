@@ -130,7 +130,7 @@ const Projects = () => {
               <h3>What I did</h3>
               <Slicer />
               <span>레이아웃 디자인</span>
-              <span>UI 디자인</span>
+              <span>UI 일부 디자인</span>
               <span>프론트엔드 전체 기능 개발</span>
             </ListDiv>
             <ListDiv>
@@ -229,6 +229,40 @@ const Projects = () => {
               <span>MongoDB를 사용한 유저와 포스트 데이터 관리</span>
               <span>AWS S3를 사용한 파일 저장과 호스팅</span>
               <span>AWS Elastic Beanstalk을 사용한 Api서버 호스팅</span>
+            </ListDiv>
+          </DescDiv>
+        </ProjectDiv>
+        <ProjectDiv>
+          <p>2019.05.28 ~ 2019.05.31</p>
+          <h2>This.Code</h2>
+          <LinkDiv>
+            <div>
+              <Icon icon={faGithub} />
+            </div>
+            <a href="https://github.com/Dotsung/This.Code_frontend">
+              Github Link
+            </a>
+          </LinkDiv>
+          <ProjectImg src="https://dotsungfiles.s3.ap-northeast-2.amazonaws.com/this.code.png" />
+          <span>
+            해커톤에서 개발을 진행한 Discord Bot과 연동되는 온라인 알고리즘
+            문제풀이 웹
+            <br />
+            4인 팀에서 디자인 및 프론트엔드 담당
+          </span>
+          <DescDiv>
+            <ListDiv>
+              <h3>What I did</h3>
+              <Slicer />
+              <span>레이아웃 및 UI/UX 디자인</span>
+              <span>프론트엔드 전체 기능 개발</span>
+            </ListDiv>
+            <ListDiv>
+              <h3>Stack</h3>
+              <Slicer />
+              <span>React.js를 사용한 프론트엔드 기능 구현</span>
+              <span>Mobx를 사용한 상태관리</span>
+              <span>Styled-components를 사용한 스타일링</span>
             </ListDiv>
           </DescDiv>
         </ProjectDiv>
