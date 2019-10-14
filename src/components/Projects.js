@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 
 const VLine = styled.div`
   min-width: 2px;
-  min-height: calc(100% - 20px);
+  min-height: 100%;
   margin-top: 20px;
   background-color: ${oc.gray[8]};
 `;
@@ -68,7 +68,7 @@ const ListDiv = styled.div`
   }
 
   span {
-    margin: 0;
+    margin: 1px 0;
   }
 `;
 
