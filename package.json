@@ -18,7 +18,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.10.2",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "next": "^9.0.5",
+    "next": "^9.3.2",
     "open-color": "^1.7.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
